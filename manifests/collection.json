@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://arilongo.github.io/new manifest/manifests/my_first_manifest.json",
     "label" : "[Click to edit label]"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://arilongo.github.io/new manifest/manifests/mymanifest.json",
+    "label" : "[Click to edit label]"
   } ]
 }
