@@ -1,0 +1,75 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://arilongo.github.io/new manifest/manifests/my_first_manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "[Click to edit label]",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "My first manifest",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://cb8f114e-6394-461e-b2c9-abdd0e7bd7b0",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://97cc0fa3-ed81-4858-a7f0-71f52eb505c6",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 8110,
+      "width" : 5407,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://d5fff2f6-92b9-42e8-aa1f-eb2ead95502d",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/nicolas-hans_unsplash/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/nicolas-hans_unsplash",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 8110,
+          "width" : 5407
+        },
+        "on" : "http://97cc0fa3-ed81-4858-a7f0-71f52eb505c6"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://21bcf846-85eb-4420-bdc8-329af55b5656",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 4032,
+      "width" : 3024,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://0140d4a0-72fa-42db-a551-4923ebc18006",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/gatto_202311/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/gatto_202311",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 4032,
+          "width" : 3024
+        },
+        "on" : "http://21bcf846-85eb-4420-bdc8-329af55b5656"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
